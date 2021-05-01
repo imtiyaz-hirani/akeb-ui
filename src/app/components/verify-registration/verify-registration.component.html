@@ -1,0 +1,29 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+
+  <mat-card class="box">
+    <mat-card-header>
+      <mat-card-title>You are already registered</mat-card-title>
+    </mat-card-header>
+
+    <form class="example-form">
+      <mat-card-content>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Email" value={{user.email}} disabled>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Name" value={{user.name}} disabled>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Qualification" value="{{user.qualification}}" disabled>
+        </mat-form-field>
+        <BR> <BR>
+        <mat-card-footer>We will email you the invite for webinar. Thank you!!</mat-card-footer>
+
+      </mat-card-content>
+
+    </form>
+  </mat-card>
+
+</div>
