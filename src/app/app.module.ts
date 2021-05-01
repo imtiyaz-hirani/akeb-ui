@@ -40,7 +40,7 @@ import { VerifyRegistrationComponent } from './components/verify-registration/ve
     ReactiveFormsModule,
     FormsModule,
     FlexLayoutModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
